@@ -16,8 +16,14 @@
       integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+      integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Bootstrap Theme</title>
+    <title>Groopster</title>
   </head>
 
   <body>
@@ -149,15 +155,17 @@
     <!-- HOME HEADING SECTION-->
     <section id="home-heading" class="p-5">
       <div class="dark-overlay">
-        <div class="row">
-          <div class="col">
-            <div class="container pt-5">
-              <h1>Ready to Get Started?</h1>
-              <p class="d-none d-md-block">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                fuga ratione a optio sequi molestiae aliquam voluptatum est hic
-                et.
-              </p>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="container pt-5">
+                <h1>Ready to Get Started?</h1>
+                <p class="d-none d-md-block">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                  fuga ratione a optio sequi molestiae aliquam voluptatum est
+                  hic et.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -165,25 +173,182 @@
     </section>
 
     <!-- INFO SECTION -->
-    <section class="py-3" id="info"></section>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 align-self-center">
-          <h3>Lorem Ipsum</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
-            atque esse est et, fugit numquam quibusdam cupiditate ea incidunt
-            nostrum.
-          </p>
-          <a href="about.html" class="btn btn-outline-danger btn-lg"
-            >Learn More</a
-          >
+    <section class="py-3" id="info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center">
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Distinctio atque esse est et, fugit numquam quibusdam cupiditate
+              ea incidunt nostrum.
+            </p>
+            <a href="about.html" class="btn btn-outline-danger btn-lg"
+              >Learn More</a
+            >
+          </div>
+          <div class="col-md-6">
+            <img src="../img/laptop.png" alt="" class="img-fluid" />
+          </div>
         </div>
-        <div class="col-md-6">
-          <img src="../img/laptop.png" alt="" class="img-fluid" />
+      </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section id="video">
+      <div class="dark-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="container py-5">
+                <a
+                  href="#"
+                  class="video"
+                  data-video="https://www.youtube.com/embed/gl1aHhXnN1k"
+                  data-toggle="modal"
+                  data-target="#video-modal"
+                >
+                  <i class="fas fa-play fa-3x"></i>
+                </a>
+                <h1>See what we do.</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTO GALLERY -->
+    <section id="gallery" class="py-5">
+      <div class="container">
+        <h1 class="text-center">Photo Gallery</h1>
+        <p class="text-center">Check out our photos</p>
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <a
+              href="https://source.unsplash.com/random/560x560"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="560"
+              data-width="560"
+              ><img
+                src="https://source.unsplash.com/random/560x560"
+                alt=""
+                class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="https://source.unsplash.com/random/561x561"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="561"
+              data-width="561"
+              ><img
+                src="https://source.unsplash.com/random/561x561"
+                alt=""
+                class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="https://source.unsplash.com/random/562x562"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="560"
+              data-width="560"
+              ><img
+                src="https://source.unsplash.com/random/562x562"
+                alt=""
+                class="img-fluid"
+            /></a>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <a
+              href="https://source.unsplash.com/random/563x563"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="560"
+              data-width="560"
+              ><img
+                src="https://source.unsplash.com/random/563x563"
+                alt=""
+                class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="https://source.unsplash.com/random/564x564"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="561"
+              data-width="561"
+              ><img
+                src="https://source.unsplash.com/random/564x564"
+                alt=""
+                class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="https://source.unsplash.com/random/565x565"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="560"
+              data-width="560"
+              ><img
+                src="https://source.unsplash.com/random/565x565"
+                alt=""
+                class="img-fluid"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO MODAL -->
+    <div
+      class="modal fade"
+      id="video-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="video-modal-title"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <iframe
+              src=""
+              frameborder="0"
+              height="350"
+              width="100%"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
         </div>
       </div>
     </div>
+
     <script
       src="http://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -199,11 +364,20 @@
       integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
       crossorigin="anonymous"
     ></script>
-
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+      integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g=="
+      crossorigin="anonymous"
+    ></script>
     <script>
       // Get the current year for the copyright
       $("#year").text(new Date().getFullYear());
 
+      // Lightbox Init
+      $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
       // Configure Carousel Speed
       $(".carousel").carousel({
         interval: 6000,
